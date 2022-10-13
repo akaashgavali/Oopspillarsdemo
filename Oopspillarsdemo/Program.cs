@@ -11,7 +11,7 @@ namespace Oopspillarsdemo
         static void Main(string[] args)
         {
             Methodoverloading c1 = new Methodoverloading();
-            Console.WriteLine(c1.Add(1, 2, 3));
+            Console.WriteLine(c1.Add(1, 2, 3)); //compile time polymorphism
             Console.WriteLine(c1.Add(2, 2));
             Console.WriteLine(c1.Add(3.4, 4));
             Console.WriteLine(c1.Add(5, 4.5));
