@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractshapes.cs" />
     <Compile Include="Methodoverloading.cs" />
+    <Compile Include="Outkey.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Refkey.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
